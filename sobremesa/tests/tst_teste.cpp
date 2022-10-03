@@ -62,5 +62,15 @@ TEST_CASE("trinta e cinco gera Goiabada e Rapadura")
     REQUIRE(sobremesa(35) == "Goiabada e Rapadura");
 }
 
+TEST_CASE("trinta e cinco gera Goiabada e Rapadura")
+{
+    REQUIRE(sobremesa(35) == "Goiabada e Rapadura");
+}
+
+TEST_CASE("cento e cinco gera Queijo e Goiabada e Rapadura")
+{
+    REQUIRE(sobremesa(35) == "Queijo e Goiabada e Rapadura");
+}
+
 
 
